@@ -12,8 +12,12 @@ $ cp .env.example .env
 ```
 2. Set environment variables inside file `.env`.
 
-3. Install dependencies and run
+3. Install dependencies
 ```bash
 $ npm install
+```
+
+4. Run application
+```bash
 $ node index
 ```
