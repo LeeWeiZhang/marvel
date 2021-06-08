@@ -78,8 +78,7 @@ app.get('/characters', (req, res) => {
     let data = cache.get(cacheKey);
     
     if (data) {
-      res.send(data);
-      return ;
+      return res.send(data);
     }
 
     const response = await axios.get(`${options.host}/v1/public/characters?${queryString}`);
