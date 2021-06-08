@@ -25,5 +25,5 @@ $ node index
 
 5. Run tests
 ```
-$ npm run tests
+$ npm test
 ```
