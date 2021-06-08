@@ -10,6 +10,7 @@ This marvel api code demostrate use of nodejs with Marvel API with a simple cach
 ```bash
 $ cp .env.example .env
 ```
+
 2. Set environment variables inside file `.env`.
 
 3. Install dependencies
@@ -20,4 +21,9 @@ $ npm install
 4. Run application
 ```bash
 $ node index
+```
+
+5. Run tests
+```
+$ npm run tests
 ```

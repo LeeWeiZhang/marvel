@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec spec.js --timeout 10000"
   },
   "author": "Lee Wei Zhang",
   "license": "ISC",
@@ -16,5 +16,14 @@
     "query-string": "^7.0.0",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "install": "^0.13.0",
+    "mocha": "^9.0.0",
+    "npm": "^7.16.0",
+    "sinon": "^11.1.1",
+    "supertest": "^6.1.3"
   }
 }
